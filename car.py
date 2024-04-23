@@ -57,6 +57,13 @@ print(y)
 print(z)
 print(s)
 print(n)
+
+
+h = ([1,2],(1,2))
+j = {}
+j[h] = 67
+
+print(j)
         
 '''        
 if __name__ == '__main__':
