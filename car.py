@@ -13,7 +13,7 @@ class Car:
         print("The car has", Car.wheels, "wheels")
         print()
         
-    def __init__(self, color = 'black', cylinders=8):
+    def __init__(self, color = 'black', cylinders=6):
         
         self.color = color
         self.__engine = cylinders
@@ -61,7 +61,7 @@ print(n)
 
 h = ([1,2],(1,2))
 j = {}
-j[h] = 67
+
 
 print(j)
         
