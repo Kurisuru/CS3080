@@ -23,7 +23,7 @@ with open(filename + ".txt", "wt") as fp:
     for s in finance.mortgage_amortization(loan_amount, apr, term_years):
         fp.write(s)
     
-for s in finance.mortgage_amortization(loan_amount, apr, term_years, increment=12):
+for s in finance.mortgage_amortization(loan_amount, apr, term_years, increment=1):
     print(s)
 
 
